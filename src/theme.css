@@ -1,0 +1,210 @@
+/* General Styles */
+body {
+    background-image: url('https://media.discordapp.net/attachments/1256720796660007002/1274513618045632652/anime-girl-aqua-blue-4k_1541973948.jpg.png?ex=66c286cd&is=66c1354d&hm=5976bc2bbeaca57aedc9adcee1bf83beba6d5cbee9ddea9ba188735f907cfbbe&=&format=webp&quality=lossless&width=687&height=386');
+    background-size: cover;
+    background-position: center;
+    color: #E0E0E0;
+}
+
+/* Sidebar Styles */
+.sidebar-3V0l2J {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 70px;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.8);
+    border-right: 1px solid #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    transition: width 0.3s;
+}
+
+.sidebar-3V0l2J:hover {
+    width: 220px;
+}
+
+.sidebar-3V0l2J .sidebar-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.9);
+    border-bottom: 1px solid #333;
+}
+
+.sidebar-3V0l2J .sidebar-header img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.sidebar-3V0l2J .sidebar-footer {
+    margin-top: auto;
+    padding: 10px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.9);
+    border-top: 1px solid #333;
+}
+
+/* Navbar Styles */
+.navbar-1-5lC8P {
+    position: relative;
+    height: 48px;
+    background: rgba(0, 0, 0, 0.9);
+    border-bottom: 1px solid #333;
+}
+
+.navbar-1-5lC8P .navbar-content {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 16px;
+}
+
+.navbar-1-5lC8P .navbar-content a {
+    color: #E0E0E0;
+    font-size: 14px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.navbar-1-5lC8P .navbar-content a:hover {
+    color: #00BFFF;
+}
+
+/* Chat Styles */
+.chat-3bR1wF {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    padding: 12px;
+    color: #E0E0E0;
+    border: 1px solid #333;
+}
+
+.chat-3bR1wF .message-2qnXI4 {
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid #333;
+    border-radius: 6px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+/* User Profile Styles */
+.profile-3YFqv1 {
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 12px;
+    color: #E0E0E0;
+}
+
+.profile-3YFqv1 img {
+    border-radius: 50%;
+    border: 2px solid #00BFFF;
+}
+
+/* Dropdown Menu */
+.dropdown-3Hk6pB {
+    background: rgba(0, 0, 0, 0.9);
+    color: #E0E0E0;
+    border: 1px solid #333;
+    border-radius: 6px;
+    padding: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-3Hk6pB .dropdown-item {
+    padding: 8px;
+    color: #E0E0E0;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-3Hk6pB .dropdown-item:hover {
+    background: rgba(0, 0, 0, 0.7);
+    color: #00BFFF;
+}
+
+/* Modal Styles */
+.modal-2KrsQe {
+    background: rgba(0, 0, 0, 0.9);
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 20px;
+    color: #E0E0E0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.modal-2KrsQe .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+}
+
+.modal-2KrsQe .modal-header h3 {
+    margin: 0;
+}
+
+.modal-2KrsQe .modal-body {
+    margin-top: 10px;
+}
+
+/* Button Styles */
+.button-1fz4Zm {
+    background: #00BFFF;
+    color: #E0E0E0;
+    border: 1px solid #333;
+    border-radius: 6px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+.button-1fz4Zm:hover {
+    background: #1E90FF;
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00BFFF;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1E90FF;
+}
+
+/* Additional Updates */
+.chat-3bR1wF .message-2qnXI4:hover {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.sidebar-3V0l2J .sidebar-footer {
+    font-size: 12px;
+    color: #B0B0B0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .sidebar-3V0l2J {
+        width: 50px;
+    }
+
+    .sidebar-3V0l2J:hover {
+        width: 200px;
+    }
+}
